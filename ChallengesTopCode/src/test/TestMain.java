@@ -5,6 +5,7 @@
  */
 package test;
 
+import java.util.Arrays;
 import practiceCode.BinaryCode;
 
 /**
@@ -17,8 +18,8 @@ public class TestMain {
         
         BinaryCode bc = new BinaryCode();
         
-        bc.decode("123210122");
-        
+//        String[] msg = bc.decode("123210122");
+        System.out.println(Arrays.toString(bc.decode("22111")));
     }
     
     
