@@ -5,6 +5,8 @@
  */
 package test;
 
+import practiceCode.BinaryCode;
+
 /**
  *
  * @author Trevi
@@ -13,7 +15,10 @@ public class TestMain {
     
     public static void main(String args[]){
         
-
+        BinaryCode bc = new BinaryCode();
+        
+        bc.decode("123210122");
+        
     }
     
     
